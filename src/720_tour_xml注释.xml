@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<krpano version="1.19">
+    <include url="%$playerDomain%/api/lensflare/lensflare.xml"/>
+    <include url="%$playerDomain%/krp/player_%$playerVersion%.xml"/>
+
+    <!-- 场景 -->
+    <scene name="s_41018604" pano_id="24925175" scene_id="41018604">
+        <!-- 预览图 -->
+        <preview url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925175/1585278394/imgs/preview.jpg?t=1585208572"/>
+        <!-- 全景图 - 桌面端 -->
+        <image if="!webvr.isenabled AND device.desktop" multires="true" tilesize="512" type="CUBE">
+            <level tiledimageheight="2176" tiledimagewidth="2176">
+                <cube url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925175/1585278394/imgs/%s/l2/%v/l2_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="1152" tiledimagewidth="1152">
+                <cube url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925175/1585278394/imgs/%s/l1/%v/l1_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+        </image>
+        <!-- 全景图 - 移动端 -->
+        <image if="webvr.isenabled OR !device.desktop">
+            <cube url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925175/1585278394/imgs/mobile_%s.jpg?t=1585208572"/>
+        </image>
+    </scene>
+
+    <!-- 场景 -->
+    <scene name="s_41018603" pano_id="24925174" scene_id="41018603">
+        <preview url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925174/1585278426/imgs/preview.jpg?t=1585208572"/>
+        <image if="!webvr.isenabled AND device.desktop" multires="true" tilesize="512" type="CUBE">
+            <level tiledimageheight="2304" tiledimagewidth="2304">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925174/1585278426/imgs/%s/l3/%v/l3_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="1152" tiledimagewidth="1152">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925174/1585278426/imgs/%s/l2/%v/l2_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="640" tiledimagewidth="640">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925174/1585278426/imgs/%s/l1/%v/l1_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+        </image>
+        <image if="webvr.isenabled OR !device.desktop">
+            <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925174/1585278426/imgs/mobile_%s.jpg?t=1585208572"/>
+        </image>
+    </scene>
+
+    <!-- 场景 -->
+    <scene name="s_41018600" pano_id="24925095" scene_id="41018600">
+        <preview url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925095/1585278426/imgs/preview.jpg?t=1585208572"/>
+        <image if="!webvr.isenabled AND device.desktop" multires="true" tilesize="512" type="CUBE">
+            <level tiledimageheight="2560" tiledimagewidth="2560">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925095/1585278426/imgs/%s/l3/%v/l3_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="1280" tiledimagewidth="1280">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925095/1585278426/imgs/%s/l2/%v/l2_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="640" tiledimagewidth="640">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925095/1585278426/imgs/%s/l1/%v/l1_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+        </image>
+        <image if="webvr.isenabled OR !device.desktop">
+            <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925095/1585278426/imgs/mobile_%s.jpg?t=1585208572"/>
+        </image>
+    </scene>
+
+    <!-- 场景 -->
+    <scene name="s_41018601" pano_id="24925096" scene_id="41018601">
+        <preview url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925096/1585278423/imgs/preview.jpg?t=1585208572"/>
+        <image if="!webvr.isenabled AND device.desktop" multires="true" tilesize="512" type="CUBE">
+            <level tiledimageheight="2560" tiledimagewidth="2560">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925096/1585278423/imgs/%s/l3/%v/l3_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="1280" tiledimagewidth="1280">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925096/1585278423/imgs/%s/l2/%v/l2_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="640" tiledimagewidth="640">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925096/1585278423/imgs/%s/l1/%v/l1_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+        </image>
+        <image if="webvr.isenabled OR !device.desktop">
+            <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925096/1585278423/imgs/mobile_%s.jpg?t=1585208572"/>
+        </image>
+    </scene>
+
+    <!-- 场景 -->
+    <scene name="s_41018598" pano_id="24925093" scene_id="41018598">
+        <preview url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925093/1585278422/imgs/preview.jpg?t=1585208572"/>
+        <image if="!webvr.isenabled AND device.desktop" multires="true" tilesize="512" type="CUBE">
+            <level tiledimageheight="2560" tiledimagewidth="2560">
+                <cube url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925093/1585278422/imgs/%s/l3/%v/l3_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="1280" tiledimagewidth="1280">
+                <cube url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925093/1585278422/imgs/%s/l2/%v/l2_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="640" tiledimagewidth="640">
+                <cube url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925093/1585278422/imgs/%s/l1/%v/l1_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+        </image>
+        <image if="webvr.isenabled OR !device.desktop">
+            <cube url="%$cdnDomain94%/resource/prod/58ci8e397n6/13227xagjyr/24925093/1585278422/imgs/mobile_%s.jpg?t=1585208572"/>
+        </image>
+    </scene>
+
+    <!-- 场景 -->
+    <scene name="s_41018599" pano_id="24925094" scene_id="41018599">
+        <preview url="%$cdnDomain92%/resource/prod/58ci8e397n6/13227xagjyr/24925094/1585278418/imgs/preview.jpg?t=1585208572"/>
+        <image if="!webvr.isenabled AND device.desktop" multires="true" tilesize="512" type="CUBE">
+            <level tiledimageheight="2560" tiledimagewidth="2560">
+                <cube url="%$cdnDomain92%/resource/prod/58ci8e397n6/13227xagjyr/24925094/1585278418/imgs/%s/l3/%v/l3_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="1280" tiledimagewidth="1280">
+                <cube url="%$cdnDomain92%/resource/prod/58ci8e397n6/13227xagjyr/24925094/1585278418/imgs/%s/l2/%v/l2_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="640" tiledimagewidth="640">
+                <cube url="%$cdnDomain92%/resource/prod/58ci8e397n6/13227xagjyr/24925094/1585278418/imgs/%s/l1/%v/l1_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+        </image>
+        <image if="webvr.isenabled OR !device.desktop">
+            <cube url="%$cdnDomain92%/resource/prod/58ci8e397n6/13227xagjyr/24925094/1585278418/imgs/mobile_%s.jpg?t=1585208572"/>
+        </image>
+    </scene>
+
+    <!-- 场景 -->
+    <scene name="s_41018602" pano_id="24925097" scene_id="41018602">
+        <preview url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925097/1585278410/imgs/preview.jpg?t=1585208572"/>
+        <image if="!webvr.isenabled AND device.desktop" multires="true" tilesize="512" type="CUBE">
+            <level tiledimageheight="2560" tiledimagewidth="2560">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925097/1585278410/imgs/%s/l3/%v/l3_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="1280" tiledimagewidth="1280">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925097/1585278410/imgs/%s/l2/%v/l2_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+            <level tiledimageheight="640" tiledimagewidth="640">
+                <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925097/1585278410/imgs/%s/l1/%v/l1_%s_%v_%h.jpg?t=1585208572"/>
+            </level>
+        </image>
+        <image if="webvr.isenabled OR !device.desktop">
+            <cube url="%$cdnDomain93%/resource/prod/58ci8e397n6/13227xagjyr/24925097/1585278410/imgs/mobile_%s.jpg?t=1585208572"/>
+        </image>
+    </scene>
+
+    <!-- 全景配置 -->
+    <config>
+        <!-- 自动导览的路径 -->
+        <autoTours>
+            <tour disableMusic="false" hideHotspots="false" loop="false" subtitleBackground="black" subtitlePosition="bottom" subtitleSize="16" title="一键导览">
+                <point blendMode="0" endath="58.23367988938365" endatv="3.7994304922294138" endfov="137.39025164989414" moveTime="5" music="" musicName="" name="piont_0" playMode="1" startath="11.158022767959652" startatv="6.175563606978771" startfov="137.39025164989414" subtitle="" targetPano="24925095" targetScene="" volume="1"/>
+                <point blendMode="0" endath="104.72454068214753" endatv="2.543068501481549" endfov="137.39025164989414" moveTime="5" music="" musicName="" name="piont_1" playMode="1" startath="58.23367988938365" startatv="3.7994304922294138" startfov="137.39025164989414" subtitle="" targetPano="24925095" targetScene="" volume="1"/>
+                <point blendMode="0" endath="167.58142220367156" endatv="1.004792522766903" endfov="137.39025164989414" moveTime="5" music="" musicName="" name="piont_2" playMode="1" startath="104.72454068214753" startatv="2.543068501481549" startfov="137.39025164989414" subtitle="" targetPano="24925095" targetScene="" volume="1"/>
+                <point blendMode="0" endath="221.80663989315465" endatv="-0.3014884267647223" endfov="130.39669312640518" moveTime="5" music="" musicName="" name="piont_3" playMode="1" startath="167.58142220367156" startatv="1.004792522766903" startfov="137.39025164989414" subtitle="" targetPano="24925095" targetScene="" volume="1"/>
+                <point blendMode="0" endath="273.5128784200599" endatv="6.110763773655493" endfov="83.189944774855" moveTime="5" music="" musicName="" name="piont_4" playMode="1" startath="221.80663989315465" startatv="-0.3014884267647223" startfov="130.39669312640518" subtitle="" targetPano="24925095" targetScene="" volume="1"/>
+                <point blendMode="0" endath="-180.90728004936548" endatv="4.902765134467953" endfov="131.12598829721165" moveTime="5" music="" musicName="" name="piont_5" playMode="3" startath="273.5128784200599" startatv="6.110763773655493" startfov="83.189944774855" subtitle="" targetPano="24925095" targetScene="" volume="1"/>
+                <point blendMode="0" endath="-46.04082817591398" endatv="2.630966103502221" endfov="131.12598829721165" moveTime="5" music="" musicName="" name="piont_6" playMode="1" startath="-180.90728004936548" startatv="4.902765134467953" startfov="131.12598829721165" subtitle="" targetPano="24925097" targetScene="" volume="1"/>
+                <point blendMode="0" endath="15.323846501208426" endatv="3.0401202210454956" endfov="131.12598829721165" moveTime="5" music="" musicName="" name="piont_7" playMode="1" startath="-46.04082817591398" startatv="2.630966103502221" startfov="131.12598829721165" subtitle="" targetPano="24925097" targetScene="" volume="1"/>
+                <point blendMode="0" endath="" endatv="" endfov="" moveTime="5" music="" musicName="" name="piont_8" playMode="1" startath="15.323846501208426" startatv="3.0401202210454956" startfov="131.12598829721165" subtitle="" targetPano="24925097" targetScene="" volume="1"/>
+            </tour>
+        </autoTours>
+        <!-- 场景配置 -->
+        <panos>
+            <!-- 
+                name 对应 <scene>中 name
+                pano_id 对应 <scene>中 pano_id
+                title 标题
+             -->
+            <pano name="s_41018604">
+                <info pano_id="24925175" title="城市之光·东望-32618219"/>
+
+                <!-- view 视角相关属性 -->
+                <view autorotatekeepview="0" fov="116.7095349085308" fovmax="131.4" fovmin="70" fovtype="MFOV" hlookat="-1.5163307727915587" loadscenekeepview="0" maxpixelzoom="2.0" vlookat="-1.6781047523622963" vlookatmax="90" vlookatmin="-90"/>
+                
+                <!-- 自动播放(720云自定义的) -->
+                <autoplay duration="90" enabled="1" enter_next="1" keep_originview="0"/>
+                <!-- 抵挡不标记(720云自定义的) -->
+                <top_circle is_float="0" scale="1" type="1"/>
+                <!-- 底部标记(720云自定义的) -->
+                <bottom_circle is_float="1" scale="0.5" type="2" url="%$mediaDomain%/13227xagjyr/2/2bd4ff6ea81ff567f1a44b66294a3c8b-254b4e9bda6ee96ca15d84a8aedd1d45b1f111eec414eafaeae92014c262aa4a.png"/>
+                <!-- 太阳炫光(720云自定义的) -->
+                <sun ath="-93.909" atv="-57.58" id="2"/>
+
+                <!-- 雷达图配置，<radarspot> 代表每个点(720云自定义的) -->
+                <radar fullscreen="0" height="1000" map_title="电子沙盘" map_url="%$mediaDomain%/13227xagjyr/2/00409fa5818c43dac175a1fb202992fd-b923893e8ff9f8b1dccf8d133c1b623a93d584cbefee04c0a8b529798e542b4a.png" opened="1" show_title="1" title="城市之光·东望-32618219" width="1000" x="0" y="0">
+                    <radarspot fullscreen="0" heading_offset="161.52249146850136" height="1000" linkedscene="s_41018603" show_title="1" title="90㎡外景" width="1000" x="658.3333333333334" y="6.25"/>
+                    <radarspot fullscreen="0" heading_offset="173.59968593375447" height="1000" linkedscene="s_41018600" show_title="1" title="客厅" width="1000" x="595.8333333333334" y="747.9166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="190.7926067927964" height="1000" linkedscene="s_41018601" show_title="1" title="卫生间" width="1000" x="795.8333333333334" y="556.25"/>
+                    <radarspot fullscreen="0" heading_offset="279.23750849120324" height="1000" linkedscene="s_41018598" show_title="1" title="厨房" width="1000" x="581.25" y="439.58333333333337"/>
+                    <radarspot fullscreen="0" heading_offset="269.92641857816903" height="1000" linkedscene="s_41018599" show_title="1" title="次卧" width="1000" x="670.8333333333334" y="285.4166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="144.64118975969086" height="1000" linkedscene="s_41018602" show_title="1" title="主卧" width="1000" x="808.3333333333334" y="733.3333333333334"/>
+                </radar>
+            </pano>
+            <pano name="s_41018603">
+                <info pano_id="24925174" title="90㎡外景"/>
+                <view autorotatekeepview="0" fov="95" fovmax="120" fovmin="70" fovtype="MFOV" hlookat="4.5816951534889" loadscenekeepview="0" maxpixelzoom="2.0" vlookat="-0.3094482868377882" vlookatmax="90" vlookatmin="-90"/>
+                <autoplay duration="90" enabled="1" enter_next="1" keep_originview="0"/>
+                <embeds>
+                    <embed alpha="0.81" ath="79.335" atv="-31.835" color="#60605c" embed_type="5" name="embed_0" thickness="3" title="这里是写字楼">
+                        <point ath="79.244" atv="-22.57" name="image_0"/>
+                        <point ath="79.239" atv="-31.301" name="image_1"/>
+                    </embed>
+                </embeds>
+                <bottom_circle is_float="1" scale="0.5" type="2" url="%$mediaDomain%/13227xagjyr/2/2bd4ff6ea81ff567f1a44b66294a3c8b-254b4e9bda6ee96ca15d84a8aedd1d45b1f111eec414eafaeae92014c262aa4a.png"/>
+                <sun ath="-93.909" atv="-57.58" id="2"/>
+                <radar fullscreen="0" heading_offset="161.52249146850136" height="1000" map_title="电子沙盘" map_url="%$mediaDomain%/13227xagjyr/2/00409fa5818c43dac175a1fb202992fd-b923893e8ff9f8b1dccf8d133c1b623a93d584cbefee04c0a8b529798e542b4a.png" opened="1" show_title="1" title="90㎡外景" width="1000" x="658.3333333333334" y="6.25">
+                    <radarspot fullscreen="0" heading_offset="173.59968593375447" height="1000" linkedscene="s_41018600" show_title="1" title="客厅" width="1000" x="595.8333333333334" y="747.9166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="190.7926067927964" height="1000" linkedscene="s_41018601" show_title="1" title="卫生间" width="1000" x="795.8333333333334" y="556.25"/>
+                    <radarspot fullscreen="0" heading_offset="279.23750849120324" height="1000" linkedscene="s_41018598" show_title="1" title="厨房" width="1000" x="581.25" y="439.58333333333337"/>
+                    <radarspot fullscreen="0" heading_offset="269.92641857816903" height="1000" linkedscene="s_41018599" show_title="1" title="次卧" width="1000" x="670.8333333333334" y="285.4166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="144.64118975969086" height="1000" linkedscene="s_41018602" show_title="1" title="主卧" width="1000" x="808.3333333333334" y="733.3333333333334"/>
+                </radar>
+            </pano>
+            <pano name="s_41018600">
+                <info pano_id="24925095" title="客厅"/>
+                <view autorotatekeepview="0" fov="137.39025164989414" fovmax="140.9" fovmin="70" fovtype="MFOV" hlookat="11.158022767959652" loadscenekeepview="0" maxpixelzoom="2.0" vlookat="6.175563606978771" vlookatmax="90" vlookatmin="-90"/>
+                <autoplay duration="90" enabled="1" enter_next="1" keep_originview="0"/>
+                <embeds>
+                    <embed ath="-46.406" atv="11.521" embed_type="2" interval="3" music_pause="0" name="embed_0" play_type="0" rotation_x="12" rotation_y="-26" rotation_z="0" scale="0.12599999999999967" sound_pause="0">
+                        <image name="image_0" url="%$mediaDomain%/13227xagjyr/2/afffcfcd979773617e673692be6d679d-a3dbcb7c8881147405b827391e5cf2650d7e6b2cb6fa7592aac372cc03deeb3f.jpg"/>
+                    </embed>
+                    <embed alpha="1" ath="-104.546" atv="-18.884" color="#e0ed0c" embed_type="5" name="embed_1" thickness="3" title="xxx米高">
+                        <point ath="-100.039" atv="-20.984" name="image_0"/>
+                        <point ath="-99.918" atv="29.596" name="image_1"/>
+                    </embed>
+                </embeds>
+                <bottom_circle is_float="0" scale="1" type="1"/>
+                <radar fullscreen="0" heading_offset="173.59968593375447" height="1000" map_title="电子沙盘" map_url="%$mediaDomain%/13227xagjyr/2/00409fa5818c43dac175a1fb202992fd-b923893e8ff9f8b1dccf8d133c1b623a93d584cbefee04c0a8b529798e542b4a.png" opened="1" show_title="1" title="客厅" width="1000" x="595.8333333333334" y="747.9166666666667">
+                    <radarspot fullscreen="0" heading_offset="161.52249146850136" height="1000" linkedscene="s_41018603" show_title="1" title="90㎡外景" width="1000" x="658.3333333333334" y="6.25"/>
+                    <radarspot fullscreen="0" heading_offset="190.7926067927964" height="1000" linkedscene="s_41018601" show_title="1" title="卫生间" width="1000" x="795.8333333333334" y="556.25"/>
+                    <radarspot fullscreen="0" heading_offset="279.23750849120324" height="1000" linkedscene="s_41018598" show_title="1" title="厨房" width="1000" x="581.25" y="439.58333333333337"/>
+                    <radarspot fullscreen="0" heading_offset="269.92641857816903" height="1000" linkedscene="s_41018599" show_title="1" title="次卧" width="1000" x="670.8333333333334" y="285.4166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="144.64118975969086" height="1000" linkedscene="s_41018602" show_title="1" title="主卧" width="1000" x="808.3333333333334" y="733.3333333333334"/>
+                </radar>
+            </pano>
+            <pano name="s_41018601">
+                <info pano_id="24925096" title="卫生间"/>
+                <view autorotatekeepview="0" fov="128.5" fovmax="134.2" fovmin="70" fovtype="MFOV" hlookat="-8.575184738971476" loadscenekeepview="0" maxpixelzoom="2.0" vlookat="-0.6017845365600198" vlookatmax="90" vlookatmin="-90"/>
+                <autoplay duration="90" enabled="1" enter_next="1" keep_originview="0"/>
+                <bottom_circle is_float="0" scale="1" type="1"/>
+                <radar fullscreen="0" heading_offset="190.7926067927964" height="1000" map_title="电子沙盘" map_url="%$mediaDomain%/13227xagjyr/2/00409fa5818c43dac175a1fb202992fd-b923893e8ff9f8b1dccf8d133c1b623a93d584cbefee04c0a8b529798e542b4a.png" opened="1" show_title="1" title="卫生间" width="1000" x="795.8333333333334" y="556.25">
+                    <radarspot fullscreen="0" heading_offset="161.52249146850136" height="1000" linkedscene="s_41018603" show_title="1" title="90㎡外景" width="1000" x="658.3333333333334" y="6.25"/>
+                    <radarspot fullscreen="0" heading_offset="173.59968593375447" height="1000" linkedscene="s_41018600" show_title="1" title="客厅" width="1000" x="595.8333333333334" y="747.9166666666667"/>\
+                
+                    <radarspot fullscreen="0" heading_offset="279.23750849120324" height="1000" linkedscene="s_41018598" show_title="1" title="333厨房" width="1000" x="581.25" y="439.58333333333337"/>
+                    <radarspot fullscreen="0" heading_offset="269.92641857816903" height="1000" linkedscene="s_41018599" show_title="1" title="2222次卧" width="1000" x="670.8333333333334" y="285.4166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="144.64118975969086" height="1000" linkedscene="s_41018602" show_title="1" title="主卧" width="1000" x="808.3333333333334" y="733.3333333333334"/>
+                </radar>
+            </pano>
+            <pano name="s_41018598">
+                <info pano_id="24925093" title="002厨房"/>
+                <view autorotatekeepview="0" fov="131.61341131062554" fovmax="140.9" fovmin="70" fovtype="MFOV" hlookat="-96.51135918703437" loadscenekeepview="0" maxpixelzoom="2.0" vlookat="-0.4994765885240016" vlookatmax="90" vlookatmin="-90"/>
+                <autoplay duration="90" enabled="1" enter_next="1" keep_originview="0"/>
+                <bottom_circle is_float="0" scale="1" type="1"/>
+                <radar fullscreen="0" heading_offset="279.23750849120324" height="1000" map_title="电子沙盘" map_url="%$mediaDomain%/13227xagjyr/2/00409fa5818c43dac175a1fb202992fd-b923893e8ff9f8b1dccf8d133c1b623a93d584cbefee04c0a8b529798e542b4a.png" opened="1" show_title="1" title="厨房" width="1000" x="581.25" y="439.58333333333337">
+                    <radarspot fullscreen="0" heading_offset="161.52249146850136" height="1000" linkedscene="s_41018603" show_title="1" title="90㎡外景" width="1000" x="658.3333333333334" y="6.25"/>
+                    <radarspot fullscreen="0" heading_offset="173.59968593375447" height="1000" linkedscene="s_41018600" show_title="1" title="客厅" width="1000" x="595.8333333333334" y="747.9166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="190.7926067927964" height="1000" linkedscene="s_41018601" show_title="1" title="卫生间" width="1000" x="795.8333333333334" y="556.25"/>
+                    <radarspot fullscreen="0" heading_offset="269.92641857816903" height="1000" linkedscene="s_41018599" show_title="1" title="次卧" width="1000" x="670.8333333333334" y="285.4166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="144.64118975969086" height="1000" linkedscene="s_41018602" show_title="1" title="主卧" width="1000" x="808.3333333333334" y="733.3333333333334"/>
+                </radar>
+            </pano>
+            <pano name="s_41018599">
+                <info pano_id="24925094" title="次卧"/>
+                <view autorotatekeepview="0" fov="122.8" fovmax="132.3" fovmin="70" fovtype="MFOV" hlookat="2.4317660299034722" loadscenekeepview="0" maxpixelzoom="2.0" vlookat="5.5733247280661775" vlookatmax="90" vlookatmin="-90"/>
+                <autoplay duration="90" enabled="1" enter_next="1" keep_originview="0"/>
+                <bottom_circle is_float="0" scale="1" type="1"/>
+                <radar fullscreen="0" heading_offset="269.92641857816903" height="1000" map_title="电子沙盘" map_url="%$mediaDomain%/13227xagjyr/2/00409fa5818c43dac175a1fb202992fd-b923893e8ff9f8b1dccf8d133c1b623a93d584cbefee04c0a8b529798e542b4a.png" opened="1" show_title="1" title="次卧" width="1000" x="670.8333333333334" y="285.4166666666667">
+                    <radarspot fullscreen="0" heading_offset="161.52249146850136" height="1000" linkedscene="s_41018603" show_title="1" title="90㎡外景" width="1000" x="658.3333333333334" y="6.25"/>
+                    <radarspot fullscreen="0" heading_offset="173.59968593375447" height="1000" linkedscene="s_41018600" show_title="1" title="客厅" width="1000" x="595.8333333333334" y="747.9166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="190.7926067927964" height="1000" linkedscene="s_41018601" show_title="1" title="卫生间" width="1000" x="795.8333333333334" y="556.25"/>
+                    <radarspot fullscreen="0" heading_offset="279.23750849120324" height="1000" linkedscene="s_41018598" show_title="1" title="厨房" width="1000" x="581.25" y="439.58333333333337"/>
+                    <radarspot fullscreen="0" heading_offset="144.64118975969086" height="1000" linkedscene="s_41018602" show_title="1" title="主卧" width="1000" x="808.3333333333334" y="733.3333333333334"/>
+                </radar>
+            </pano>
+            <pano name="s_41018602">
+                <info pano_id="24925097" title="主卧"/>
+                <view autorotatekeepview="0" fov="131.12598829721165" fovmax="131.12598829721165" fovmin="70" fovtype="MFOV" hlookat="11.173046700191344" loadscenekeepview="0" maxpixelzoom="2.0" vlookat="-0.7780089321015269" vlookatmax="90" vlookatmin="-90"/>
+                <autoplay duration="90" enabled="1" enter_next="1" keep_originview="0"/>
+                <bottom_circle is_float="0" scale="1" type="1"/>
+                <radar fullscreen="0" heading_offset="144.64118975969086" height="1000" map_title="电子沙盘" map_url="%$mediaDomain%/13227xagjyr/2/00409fa5818c43dac175a1fb202992fd-b923893e8ff9f8b1dccf8d133c1b623a93d584cbefee04c0a8b529798e542b4a.png" opened="1" show_title="1" title="主卧" width="1000" x="808.3333333333334" y="733.3333333333334">
+                    <radarspot fullscreen="0" heading_offset="161.52249146850136" height="1000" linkedscene="s_41018603" show_title="1" title="90㎡外景" width="1000" x="658.3333333333334" y="6.25"/>
+                    <radarspot fullscreen="0" heading_offset="173.59968593375447" height="1000" linkedscene="s_41018600" show_title="1" title="客厅" width="1000" x="595.8333333333334" y="747.9166666666667"/>
+                    <radarspot fullscreen="0" heading_offset="190.7926067927964" height="1000" linkedscene="s_41018601" show_title="1" title="卫生间" width="1000" x="795.8333333333334" y="556.25"/>
+                    <radarspot fullscreen="0" heading_offset="279.23750849120324" height="1000" linkedscene="s_41018598" show_title="1" title="厨房" width="1000" x="581.25" y="439.58333333333337"/>
+                    <radarspot fullscreen="0" heading_offset="269.92641857816903" height="1000" linkedscene="s_41018599" show_title="1" title="次卧" width="1000" x="670.8333333333334" y="285.4166666666667"/>
+                </radar>
+            </pano>
+        </panos>
+    </config>
+</krpano>
